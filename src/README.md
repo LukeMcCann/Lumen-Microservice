@@ -45,6 +45,32 @@ From here the microservice should then check the received payload type, this sho
 
 More experience is required utilising RabbitMQ and Lumen before stepping to the next section. As such, I will continue working on these skills as I have not experienced these technologies before now.
 
+# Basic Config
+
+Set up a `.env` file in the root of this project with the following variables:
+
+- APP_NAME=Lumen
+- APP_ENV=local
+- APP_KEY=
+- APP_DEBUG=true
+- APP_URL=http://localhost
+- APP_TIMEZONE=UTC
+
+- LOG_CHANNEL=stack
+- LOG_SLACK_WEBHOOK_URL=
+
+- DB_CONNECTION=postgres
+- DB_HOST=postgres
+- DB_PORT=5432
+- DB_DATABASE=app_db 
+- DB_USERNAME=username
+- DB_PASSWORD=password
+
+- CACHE_DRIVER=file
+- QUEUE_CONNECTION=sync
+
+
+
 # Lumen PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
