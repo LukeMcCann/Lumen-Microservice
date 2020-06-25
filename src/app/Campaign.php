@@ -9,13 +9,13 @@ use Illuminate\Database\Eloquent\Model;
  * 
  * Model Class for holding Person data. 
  */
-class Person extends Model 
+class Campaign extends Model 
 {
     /**
      * Attributes that are mass assignable
      */
     protected $fillable = [
-        'first_name', 'last_name', 'phone', 'email', 'query_id', 'call_stats_id', 'campaign_id'
+        'campaign_name', 'campaign_desc'
     ];
 
     /**
