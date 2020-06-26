@@ -1,5 +1,10 @@
 # Microservices 
 
+# Known Issues
+
+- Issue connecting to database with docker:
+    - when connecting to the datbase via artisan pgsql driver is not found though it is enabled.
+
 A secondary README.md is available in the `src/` folder showing the
 steps taken. 
 
